@@ -1,0 +1,22 @@
+git@github.com:tillurdizzy/minecraft.git
+
+
+
+
+STAGING
+--add all in directory
+git add .
+
+COMMIT
+git commit -m "message"
+
+PUSH
+git remote add origin git@github.com:tillurdizzy/minecraft.git
+
+git push origin master
+
+BRANCH
+-- init a new branch
+git branch branchName
+
+

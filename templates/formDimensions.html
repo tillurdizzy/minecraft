@@ -1,0 +1,12 @@
+<form name="dimensions" ng-submit="submitDimensionForm()">
+	<label>{{labelOne}}</label>
+	<input name="X1" type="text" placeholder="X" ng-model="X1" required>
+	<input name="Y1" type="text" placeholder="Y" ng-model="Y1" required>
+	<input name="Z1" type="text" placeholder="Z" ng-model="Z1" required>
+	<label>{{labelTwo}}</label>
+	<label>Width (East-West)</label>
+	<input name="W" type="text" placeholder="W" ng-model="W" required>
+	<label>Height (North-South)</label>
+	<input name="H" type="text" placeholder="H" ng-model="H" required>
+	<button type="submit" class="button small radius">Submit</button>
+</form>

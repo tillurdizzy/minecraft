@@ -1,0 +1,22 @@
+
+<div class="leftColumn">  
+  <h4>ACTIONS</h4>
+  <label ng-show="templateID !='confirm'">Select Action</label>
+  <select id="actionType" ng-show="templateID !='confirm'" ng-model="selectedLabel" ng-options="c.label for c in primarySelections" ng-change="selectPrimaryAction(selectedLabel)" ></select>
+  <select id="subNavigation" ng-show="selectedPrimaryAction=='addNav' && templateID !='confirm'" ng-model="selectedNav" ng-options="c.label for c in subNavigationSelections" ng-change="selectSubAction(selectedNav)"></select>
+  <select id="subLocation" ng-show="selectedPrimaryAction=='addLocation' && templateID !='confirm'" ng-model="selectedLoc" ng-options="c.label for c in subLocationSelections" ng-change="selectSubAction(selectedLoc)"></select>
+  <one-point-form ng-show="templateID=='single'"></one-point-form>
+  <two-point-form ng-show="templateID=='double'"></two-point-form>
+  <dimension-form ng-show="templateID=='dimensions'"></dimension-form>
+  <two-point-width ng-show="templateID=='doubleWidth'"></two-point-width>
+  <jds-confirm ng-show="templateID=='confirm'"></jds-confirm>
+ 
+  <h4>FUCAL POINT</h4>
+  <label>X={{focalPointX}}</label>
+  <label>Y={{focalPointY}}</label>
+  <label>Z={{focalPointZ}}</label>
+</div>
+
+<div kinetic-canvas class="canvasContainer" id="7876354" tunnels="tunnels" locations="locations" stairs="stairs" isZoomed="isZoomed"></div>
+ <!--  <canvas id="mapCanvas" draw-on-canvas width="1000" height="1000" zoomable="true"/> -->  
+

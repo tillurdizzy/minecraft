@@ -1,0 +1,72 @@
+/* Space out content a bit */
+body {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.top-bar .name h1 {
+      line-height: 45px;
+      font-size: 1.2rem;
+      margin: 0; padding-left: 20px;}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.leftColumn{
+  width:200px;
+  height:900px;
+  padding-left: 15px;
+  float: left;
+}
+
+.leftColumn h4{
+  color:#000000;
+  font-size: 18px;
+}
+
+.canvasContainer{
+  width:1004px;
+  height:1004px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding:2px;
+  border: 2px solid #000000;
+  float: left;
+}
+
+input[type="text"],
+textarea {
+  font-size: 1rem;
+  height: 1.5rem;
+  margin: 0 0 .5rem 0;
+  padding: 0.3rem;
+}
+
+.button{
+  height:80px;
+}
+
